@@ -189,7 +189,7 @@ export default function ElectionView({ election, onBack, onReset }: Props) {
                           <span style={{
                             fontSize: 9,
                             fontFamily: "JetBrains Mono, monospace",
-                            color: "#000",
+                            color: "#fff",
                             background: "var(--accent)",
                             padding: "1px 6px",
                             letterSpacing: "0.08em",
@@ -328,7 +328,7 @@ export default function ElectionView({ election, onBack, onReset }: Props) {
               flex: 1,
               background: "var(--accent)",
               border: "1px solid var(--accent)",
-              color: "#000",
+              color: "#fff",
               padding: "12px",
               cursor: "pointer",
               fontFamily: "Bebas Neue, sans-serif",

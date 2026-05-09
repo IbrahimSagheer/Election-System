@@ -140,7 +140,7 @@ export default function Home() {
                   alignItems: "center",
                   gap: 16,
                   background: "var(--accent)",
-                  color: "#000",
+                  color: "#fff",
                   border: "none",
                   padding: "18px 40px",
                   cursor: "pointer",
@@ -297,7 +297,7 @@ export default function Home() {
                     onMouseEnter={e => {
                       const btn = e.currentTarget as HTMLButtonElement;
                       btn.style.borderColor = "var(--accent)";
-                      btn.style.background = "#1A1A00";
+                      btn.style.background = "#1A0A2E";
                     }}
                     onMouseLeave={e => {
                       const btn = e.currentTarget as HTMLButtonElement;
